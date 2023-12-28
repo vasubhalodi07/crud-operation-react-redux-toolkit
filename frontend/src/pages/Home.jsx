@@ -153,7 +153,7 @@ export default function Home() {
         <TableContainer component={Paper} sx={{ marginTop: "16px" }}>
           <Table sx={{ minWidth: 659 }} aria-label="simple table">
             <TableHead>
-              <TableRow sx={{ backgroundColor: "black" }}>
+              <TableRow sx={{ backgroundColor: "#4b4d5c" }}>
                 <TableCell align="left">
                   <Typography sx={{ fontWeight: 600, color: "white" }}>
                     No
@@ -171,7 +171,7 @@ export default function Home() {
                 </TableCell>
                 <TableCell align="left">
                   <Typography sx={{ fontWeight: 600, color: "white" }}>
-                    Event
+                    Actions
                   </Typography>
                 </TableCell>
               </TableRow>
@@ -202,7 +202,7 @@ export default function Home() {
                     <TableCell align="left">
                       <Box sx={{ display: "flex", cursor: "pointer" }}>
                         <Box
-                          sx={{ color: "black", mr: 1 }}
+                          sx={{ color: "#707cd4", mr: 1 }}
                           onClick={() => updateEmployee(item)}
                         >
                           <EditIcon />
